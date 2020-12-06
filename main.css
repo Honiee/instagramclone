@@ -1,0 +1,326 @@
+.box-container {
+    background-color: rgb(249,249,249);
+    height: 107vh;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+     padding-top: 30px;
+     font-family: arial;
+}
+.box-one {
+    width: 350px;
+    height: 540px;
+    border: 1px solid rgb(211,211,211);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255,255,255);
+}
+.instalogo {
+    width: 215px;
+    margin-top: 20px;
+}
+.logo-text {
+    color:rgba(var(--f52,142,142,142),1);
+    font-size: 17px;
+    font-family:  sans-serif;
+    font-weight: 550;
+    text-align: center;
+    line-height: 20px;
+    padding: 0px 20px 10px 20px;
+}
+
+.facebooklogo {
+    height: 20px;
+    margin-right: 5px;
+}
+.facebook-button {
+    background-color: rgba(var(--d69,0,149,246),1);
+    color: white;
+    font-size: 10px;
+    width: 270px;
+    border:none;
+    height: 30px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+span {  
+    background:#fff; 
+    padding:0 20px; 
+}
+.horizontal {
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 0.1px inset rgb(211,211,211); 
+    line-height: 0.1em;
+    margin: 22px 0 15px; 
+    font-family: arial;
+    color: rgba(var(--f52,142,142,142),1);
+    font-size: 13px;
+    font-weight: 600;
+}
+    
+::placeholder {
+    color: rgb(128,128,128)
+}
+.text-container {
+    border-radius: 5px;
+    font-size: 12px;
+    width: 262px;
+    height: 35px;  
+}
+.number {
+    margin-top: 15px;
+    border: 1px solid rgb(211,211,211);
+    background-color: rgb(249,249,249);
+    text-indent: 5px;
+    font-family: arial;
+}
+.text-two {
+    margin-top: 5px;
+    border: 1px solid rgb(211,211,211);
+    background-color: rgb(249,249,249);
+    text-indent: 5px;
+    font-family: arial;
+}
+.signup-button {
+    margin-top: 18px;
+}
+.box1-foot {
+    font-size: 12.4px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 350;
+    color: rgba(var(--f52,142,142,142),1);
+    line-height: 16px;
+
+}
+.boxtwo-container {
+    width: 350px;
+    height: 46px;
+    border: 1px solid rgb(211,211,211);
+    margin-top: 10px;
+    background-color: rgb(255,255,255);
+    padding-top: 20px;   
+}
+.box-two {
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    font-size: 14px;
+    margin-top: 6px;
+}
+.boxtwo-link {
+    text-decoration: none;
+    color: rgba(var(--d69,0,149,246),1);
+}
+.box-three {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 14.5px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+}
+.appstore {
+    height: 40px;
+    margin-top: 22px;
+    margin-right: 9px;
+}
+.googleplay {
+    height: 40px;
+    margin-top: 22px;
+}
+.bottom-links {
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    margin-top: 65px;
+
+
+}
+@media only screen and (max-width: 768px) {
+    .bottom-links {
+        display: block;
+    }
+}
+.link-foot {
+    padding-left: 19px;
+    font-size: 12.2px;
+    color: rgba(var(--f52,142,142,142),1);
+    text-decoration: none;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 20;
+    padding-top: 40px;
+    padding-left:40px;
+    font-size: 12.5px;
+    color: rgba(var(--f52,142,142,142),1);
+}
+
+
+.box-containerB {
+    height: 97vh;
+} 
+.box-oneB {
+    width: 350px;
+    height: 380px;
+    border: 1px solid rgb(211,211,211);
+    margin-top: 40px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.numberB {
+    margin-top: 25px;
+}
+.signup-buttonB {
+    margin-top: 13px;
+}
+.facebook-buttonB {
+    background-color: rgb(255,255,255);
+    color: rgb(42,61,114);
+    font-size: 10px;
+    width: 280px;
+    border:none;
+    height: 30px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-top: 35px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.password {
+    color: rgb(42,61,114);
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    font-size: 12.5px;
+    font-family: arial;
+    text-decoration: none;
+}
+
+.box-threeB {
+    margin-top: 15px;
+}
+.bottom-linksB {
+    margin-top: 90px;
+}
+.troublelogo {
+    height: 120px;
+}
+.troublelog {
+    font-size: 16px;
+    font-weight: 600;
+    
+}
+.box-containerC {
+    border-top: 1px solid rgb(211,211,211);
+    padding-top: 10px;
+    height:92vh
+}
+.box-oneC {
+    width: 380px;
+    height: 465px;
+    border: 1px solid rgb(211,211,211);
+    margin-top: 40px;
+    background-color: rgb(255,255,255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.instalogoC {
+    height: 40px;
+    width: 9%;
+    margin-left: 16.5%;
+    margin-top: 10px;
+}
+.topbox {
+    font-size: 14.5px;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 350;
+    color: rgba(var(--f52,142,142,142),1);
+    line-height: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.numberC {
+    margin-top: 15px;
+    border: 1px solid rgb(211,211,211);
+    background-color: rgb(249,249,249);
+    text-indent: 5px;
+    font-family: arial;
+    border-radius: 5px;
+    font-size: 14.5px;
+    width: 300px;
+    height: 38px;  
+}
+.facebook-buttonC {
+    width: 307px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+.horizontalC {
+    margin-top: 40px;
+}
+.newacc {
+    color: rgb(29,29,29);
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    margin-top: 25px;
+    text-decoration: none;
+}
+.boxtwo-linkC:focus {
+    outline: none;
+}
+.boxtwo-linkC {
+text-decoration: none;
+color: rgb(29,29,29);
+font-size: 14px;
+width: 385px;
+height: 40px;
+background-color: rgb(249,249,249);
+border: 2px solid rgb(211,211,211);
+border-top: none;
+font-weight: 600;
+}
+.boxtwo-containerC {
+    background-color: rgb(249,249,249);
+    width: 385px;
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    
+}
+.bottom-linksC {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-family: arial;
+    
+}
