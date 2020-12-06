@@ -89,8 +89,15 @@ span {
     text-indent: 5px;
     font-family: arial;
 }
+
 .signup-button {
     margin-top: 18px;
+}
+.signup-button:disabled,
+.signup-buttonB:disabled,
+.signup-button[disabled]{
+    opacity: 1;
+    background-color: rgba(var(--d69,0,149,246),.3);
 }
 .box1-foot {
     font-size: 12.4px;
@@ -282,6 +289,11 @@ span {
     margin-top: 15px;
     font-weight: 600;
 }
+.facebook-buttonC:disabled,
+.facebook-buttonC[disabled]{
+    opacity: 1;
+    background-color: rgba(var(--d69,0,149,246),.3);
+}
 .horizontalC {
     margin-top: 40px;
 }
@@ -323,4 +335,7 @@ font-weight: 600;
     justify-content: center;
     font-family: arial;
     
+}
+input:focus {
+outline: none;
 }
