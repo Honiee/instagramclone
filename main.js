@@ -1,4 +1,5 @@
 // wait for DOM to be ready before running
+console.log('javascript loaded')
 let submitButton;
 setTimeout(() => {
     submitButton = document.getElementById('submitButton')
